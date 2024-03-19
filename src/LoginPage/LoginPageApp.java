@@ -25,6 +25,12 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
                             : en az bir tane sembol içermeli
 */
 
+
+
+
+
+
+
 import java.util.Scanner;
 
 public class LoginPageApp {
@@ -40,9 +46,7 @@ public class LoginPageApp {
 
     private static void start() {
         Scanner scanner = new Scanner(System.in);
-
         UserService service = new UserService();
-
         int select;
 
         do {
